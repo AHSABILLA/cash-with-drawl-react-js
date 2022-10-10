@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 40%;
+  height: 80%;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.name-container {
+  display: flex;
+}
+.logo {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  color: #585076;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  color: #585076;
+  font-size: 20px;
+}
+.digit {
+  color: #ffffff;
+  font-size: 20px;
+}
+.rupees {
+  font-size: 10px;
+  color: #585076;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+}
+.para {
+  color: #585076;
+  font-size: 15px;
+}
+.box-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
